@@ -1,0 +1,7 @@
+__pycache__
+models/
+logs/
+.DS_Store
+.idea
+.svn
+.git
