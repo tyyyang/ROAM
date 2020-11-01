@@ -11,7 +11,7 @@ This is the PyTorch implementation of our [ROAM](https://arxiv.org/pdf/1907.1200
 Set proper `root_dir` in `config.py` accordingly in order to proceed the following step. Make sure that you place the tracking data properly according to your path setting.
 
 ### Training
-1. Download the ILSRVC data from the official website and extract it to proper place according to the path in `config.py`.
+1. Download the ILSRVC data from the official website and extract it to proper place according to the path in `config.py`. Pretrained `vgg-16.mat` file can be download from [here](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-16.mat)
 2. Then run the `python3 make_vid_info.py` in to build the meta data file for  ILSVRC data.
 3. Run: 
 ```
